@@ -1,0 +1,13 @@
+@import "desktop.css";
+
+header, footer{
+  widht:600px;
+}
+
+main{
+  width: 560px;
+}
+
+#p1{
+width: 600px;
+}
