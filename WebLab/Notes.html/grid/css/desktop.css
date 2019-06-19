@@ -13,7 +13,7 @@ font-family: 'Montserrat', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 
   body{
-    background-image: url("file:///Users/amandapmartini/github/WebLab/Notes.html/grid/images/miami.jpg");
+    background-image: url("../images/miami.jpg");
     background-repeat: repeat;
     background-position: center;
     background-size: 100% 100%;
