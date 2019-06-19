@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 700px)">
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 700px)">
+
+
+    <style>
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+            <li><a href="#section2"> About It </a></li>
+            <li><a href="#section4">Gallery</a></li>
+            <li><a href="#section3"> Experiences </a></li>
+
+        </ul>
+
+      </nav>
+    </header>
+
+    <main>
+
+      <section id="section1">
+        <div>
+          <h2 id="title"> Travelling is...</h2>
+          <p> There are some moments in life where you realize how lucky you are for being alive, and having such great people around you. Well, that moment for me normally occur when I travel somewhere by myself. I believe that by travelling by yourself, you are able to experience the best companion that you could ever have: YOURSELF. I love my company and I love meeting new people and new places when I am alone, because then I can be 100% me, without worrying what other people might think.</p>
+        </div>
+        <div> <img id="amigas" src="amigas.jpg" alt="APM"> </div>
+        </section>
+
+      <section id="section2">
+        <div>
+           <h1> A little bit more about my passion... </h1>
+           <p id="description"> I believe that the main reason why I love travelling so much is because every time I visit a new place, I learn about a new culture, I meet new people and mainly, I expand my horizons and somehow I mature </p>
+        </div>
+        <div>
+          <p> Between all the palces I have visited, I believe that that visiting my own country will always be the best choice. I was born and raised in Brazil; a culture full of energy, color, and happiness. And that is exactly what every city in this country transmits: the food taste as good as it looks, the sunsets are as pretty as in the pictures, and the people are as lovely and passionate about the country as their reputation says so. There are really famous beaches in Brazil which I definitely recommend: Trancoso, Ilha de Fernando de Noronha, Itacare, and Jeriquoaquoara are some of them. </p>
+        </div>
+        <div>
+          <p>Another important fact about me is that I moved to Mexico City when I was 13 years-old, and since then I have been exploring the wonderful country of Mexico. It's been a great experience to travel to places like Cancun or Tulum. I also love Bacalao and Holbox, which are two places not really frequented by tourists, however, that also means they are way more preserved. The greatest tip I can give about travelling to Mexico, is: PLAN EVERYTHING AHEAD. Mexicans believes they can fool you easily, so it's better to have everything planned in advance so you won't pay more at the time you arrive. </p>
+        </section>
+
+
+        <section id="section4">
+        <img class="gallery" src="file:///Users/amandapmartini/github/WebLab/Notes.html/grid/images/portugal.jpg" alt="Portugal">
+        <img class="gallery" src="file:///Users/amandapmartini/github/WebLab/Notes.html/grid/images/madrid.jpg" alt="Madrid">
+        <img class="gallery" src="file:///Users/amandapmartini/Documents/IMG_9407.png" alt="Greece">
+        <img class="gallery" src="file:///Users/amandapmartini/Documents/IMG_2628.png" alt="Navio">
+        <img class="gallery" src="file:///Users/amandapmartini/Documents/IMG_5979.png" alt="Vancouver">
+        <img class="gallery" src="file:///Users/amandapmartini/Documents/IMG_8062.png" alt="Puerto Rico">
+        <img class="gallery" src="file:///Users/amandapmartini/Documents/IMG_4637.png" alt="Acapulco">
+        <img class="gallery" src="file:///Users/amandapmartini/Documents/IMG_2993.png" alt="FLL">
+
+        </section>
+
+        <section id="section3">
+          <div>
+          <h1>My own experiences</h1>
+          <p id="description"> Some of the places I have been are: </p>
+          <p>
+            <ul>
+              <li> Brazil</li>
+              <li>Dominican Republic</li>
+              <li>Saint Marteen</li>
+              <li>Aruba</li>
+              <li>St. Kitts & Nevis</li>
+              <li>Cayman Island</li>
+            </div>
+            <div>
+              <li>Bahamas</li>
+              <li>Haiti</li>
+              <li>Jamaica</li>
+              <li>Mexico</li>
+              <li>USA</li>
+              <li>Canada</li>
+              <li>Italy</li>
+              <li>Spain</li>
+              <li>France</li>
+              <li>England</li>
+              <li>Belgium</li>
+              <li>Netherlands</li>
+              <li>Germany</li>
+              <li>Greece</li>
+              <li>Monaco</li>
+            </ul>
+          </div>
+          <div>
+            <p> And if I could give an advice to everyone that is planning a trip, with friends or family, is to research a lot about the place and the different non-turists spots that the country has to offer. Sometimes we limits ourselves by only visiting whatever places that are well known and famous, but the true beauty of the place is hidden somewhere only residents know about. Always ask for advice from them.
+            </p>
+            <p> I believe that the greatest experiences comes from adventures, and by travelling somewhere knowing all the tourists and non-tourists spots to visits, you are able to filter the best options and enjoy your well planed days!
+          </p>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/jquery-3.3.1.min.js"> </script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+          // JavaScript code goes in here
+
+          $("body").css("background-color", "blue");
+          $("#title").click(function(){
+            $("body").css("background-color", "pink");
+            // end of colorChange
+          });
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+  </body>
+</html>
