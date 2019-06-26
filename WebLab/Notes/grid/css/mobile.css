@@ -1,0 +1,44 @@
+@import "desktop.css";
+body{
+
+  background-size: cover;
+}
+header, footer{
+  width: 440px;
+  margin: 0 auto;
+  height: 65px;
+}
+
+main{
+  width: 440px;
+}
+
+#section1{
+  display: block;
+  width: 420px;
+  margin: 0 auto;
+}
+#section2{
+  display: block;
+  width: 420px;
+  margin: 0 auto;
+}
+#section3{
+  display: block;
+  width: 420px;
+  margin: 0 auto;
+}
+#section4{
+  display: block;
+  width: 420px;
+  margin: 0 auto;
+}
+
+nav ul li{
+  list-style: none;
+  display: block;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: -15px;
+
+}
