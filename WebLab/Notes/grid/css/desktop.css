@@ -23,12 +23,21 @@ font-family: 'Montserrat', sans-serif;
     /*background-size: contain; means it will try to maximize the size of the picture or maybe add another one */
     /*background-size: cover; means it will try to cover all the space */
 
-  header,footer{
+  header{
     width:725px;
-    height: 25px;
+    height: 30px;
     background-color: LightBlue;
     margin: 0 auto;
     margin-top: 20px;
+
+  }
+
+  footer{
+    width:725px;
+    height: 30px;
+    background-color: LightBlue;
+    margin: 0 auto;
+    margin-top: 40px;
 
   }
   main{
@@ -105,12 +114,9 @@ font-family: 'Montserrat', sans-serif;
     width: 100%;
   }
 
-  #description{
-    font-family: 'Noto Sans HK', sans-serif;
-  }
 
   #title{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive;
   }
 
   #description{
@@ -146,6 +152,7 @@ font-family: 'Montserrat', sans-serif;
   nav ul li a{
     color: white;
     text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
   }
 
   nav ul li a:hover{
